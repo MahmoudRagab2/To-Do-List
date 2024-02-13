@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  padding: 0 10px;
+}
+
+:root {
+  --main-color: #f01960;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.container .header ion-icon {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333;
+}
+
+.form {
+  background-color: #f1f1f1;
+  border-radius: 6px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.add {
+  border: none;
+  outline: none;
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: .8rem;
+}
+
+.tasks {
+  background-color: #f1f1f1;
+  margin-top: 10px;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  padding: 20px;
+}
+
+.tasks .task {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+  font-size: 1.3rem;
+}
+
+.tasks .task:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.tasks .task:hover {
+  background-color: #f7f7f7;
+}
+
+.tasks .task.done {
+  opacity: 0.5;
+}
+
+.tasks .task .task-btns span {
+  color: #000;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container .delete-all {
+  width: 100%;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  display: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 130px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  color: #000;
+}

@@ -1,0 +1,64 @@
+:root {
+  --main-color: #910936;
+}
+
+body {
+  background-color: #222;
+}
+
+.header {
+  color: white;
+}
+
+.form {
+  background-color: #333;
+}
+
+.input {
+  background-color: #777;
+  color: #fff;
+}
+
+::placeholder {
+  color: #989899;
+}
+
+.add {
+  background-color: var(--main-color);
+  color: white;
+}
+
+.tasks {
+  background-color: #333;
+}
+
+.tasks .task {
+  background-color: #555;
+  color: #fff;
+}
+
+.tasks .task:hover {
+  background-color: #666;
+}
+
+.tasks .task.done {
+  opacity: 0.5;
+}
+
+.tasks .task .task-btns span {
+  color: #fff;
+}
+
+.container .delete-all {
+  background-color: var(--main-color);
+  color: #fff;
+}
+
+.container .header ion-icon {
+  color: white;
+}
+
+.search-input {
+  background-color: #333;
+  color: #fff;
+}

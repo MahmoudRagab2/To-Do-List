@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TO-DO List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
+  <script src="https://unpkg.com/draggable"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Tasks List</h1>
+      <div class="search">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search...">
+        <ion-icon id="dark" name="contrast-outline">D</ion-icon>
+      </div>
+    </div>
+    <div class="form">
+      <input type="text" class="input" autofocus placeholder="Add A New Task...">
+      <button class="add">Add Task</button>
+    </div>
+    <div class="tasks">
+    </div>
+    <button class="delete-all">Delete All</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
