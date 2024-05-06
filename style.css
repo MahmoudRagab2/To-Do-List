@@ -89,6 +89,7 @@ body {
 
 .tasks .task.done {
   opacity: 0.5;
+  text-decoration: line-through;
 }
 
 .tasks .task .task-btns span {
